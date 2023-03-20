@@ -1,0 +1,48 @@
+
+<html>
+
+<head>
+    <title>java</title>
+</head>
+
+<body>
+<h1 style="text: 4px black ; text-align:center">Calculator</h1>
+
+    <form name = "cal" style ="vertical-align:center; background:green ;padding:20px; border:solid black 4px; outline:red solid 3px;" >  
+      
+     <input  type ="text" name = "result"> <br> <br>  
+  <input type = "button" value = "1" onclick = "cal.result.value = 1 ">  
+  <input type = "button" value = "2" onclick = "cal.result.value = 2">  
+  <input type = "button" value = "3" onclick = "cal.result.value += '3' ">  
+   <input type = "button" value = "+" onclick = "cal.result.value += '+' ">  
+  <br> <br>  
+      <input type = "button" value = "4" onclick = "cal.result.value += '4'">  
+  <input type = "button" value = "5" onclick = "cal.result.value += '5' ">  
+  <input type = "button" value = "6" onclick = "cal.result.value += '6' ">  
+  <input type = "button" value = "-" onclick = "cal.result.value += '-' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "7" onclick = "cal.result.value += '7' ">  
+  <input type = "button" value = "8" onclick = "cal.result.value += '8' ">  
+  <input type = "button" value = "9" onclick = "cal.result.value += '9' ">  
+  <input type = "button" value = "*" onclick = "cal.result.value += '*' ">  
+  <br> <br>  
+    
+    
+  <input type = "button" value = "/" onclick = "cal.result.value += '/' ">  
+  <input type = "button" value = "0" onclick = "cal.result.value += '0' ">  
+    <input type = "button" value = "." onclick = "cal.result.value += '.' "> 
+  <input type = "button" value = "=" onclick = "cal.result.value = eval(cal.result.value)">  
+  <br>   
+  
+   <input type = "button" value = "Clear All" onclick = "cal.result.value = ' ' "  >  
+  <br>   
+   
+</form>  
+  
+</body>
+
+</html>
+
+
+  

@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>
+        java scrpt
+    </title>
+    <script>
+        function shiva() {
+            var x = document.getElementById("password").value;
+            var y = document.getElementById("confirm password").value;
+            if (x != y) {
+                alert("Password do not match");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <header class="shiva">SHIVA GROUP OF COMPANNY</header>
+    <section>
+        <article class="article1">
+            <form onsubmit="return shiva()" method="post" action="https://www.gla.ac.in">
+                <table class="table1">
+                    <tr>
+                        <th><label>Login Id</label></tr>
+                    </tr>
+                    <tr>
+                        <th><label for="username">Username</label><br>
+                            <input type="text" id="username" name="username" required></th>
+                    </tr>
+                    <tr>
+                        <th><label for="Email">Email</label><br>
+                            <input type="email" id="email" name="email" required></th>
+                    </tr>
+                    <tr>
+                        <th><label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" required></th>
+                    </tr>
+                    <tr>
+                        <th><label for="confirm password"> Confirm Password</label><br>
+                            <input type="password" id="confirm password" name="confirm password" required></th>
+                    </tr>
+                    <tr>
+                        <th><input type="submit" value="submit"></th>
+                    </tr>
+                </table>
+            </form>
+        </article>
+        <article class="article2">
+            <h1 style="color:black; text-align:center;">Shiva Group of Company</h1>
+            <blockquote style="text:green 25px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The safety, health and well-being of our employees is of paramount importance and over the past several weeks <br>we have taken a series of preventive measures to
+                protect our employees from the Coronavirus outbreak and ensure business continuity for our customers.</blockquote>
+
+        </article>
+    </section>
+    <section class="section2">
+    </section>
+</body>
+
+</html>
